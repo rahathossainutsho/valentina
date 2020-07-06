@@ -1,0 +1,1389 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: cover;
+    background: linear-gradient(white ,#ffe8f0)
+}
+.header-top{
+    width:100%;
+    height:80px;
+    display: flex;
+}
+.header-top .logo{
+    align-self: center;
+}
+.header-top .manu{
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.header-top .manu .ho{
+    width:60px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.header-top .manu .ho a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    align-self: center;
+}
+.header-top .manu .ho .o{
+    width: 100%;
+    height: 0;
+    transition:.4s;
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-top .manu .ho:hover .o{
+    height: 22px;
+    opacity: 1;
+}
+.header-top .manu .ho:hover a{
+    color:#d50a51;
+    transition:.4s;
+}
+.header-top .manu .h{
+    width:60px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+.header-top .manu .h a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    align-self: center;
+}
+.header-top .manu .h .o{
+    width: 100%;
+    height: 0;
+    transition:.4s;
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-top .manu .h:hover .o{
+    height: 22px;
+    opacity: 1;
+}
+.header-top .manu .h:hover a{
+    color:#d50a51;
+    transition:.4s;
+}
+.header-top .manu .gi{
+    width:60px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+.header-top .manu .gi a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    align-self: center;
+}
+.header-top .manu .gi .o{
+    width: 100%;
+    height: 0;
+    transition:.4s;
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-top .manu .gi:hover .o{
+    height: 22px;
+    opacity: 1;
+}
+.header-top .manu .gi:hover a{
+    color:#d50a51;
+    transition:.4s;
+}
+.header-top .manu .s{
+    width:60px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+.header-top .manu .s a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    align-self: center;
+}
+.header-top .manu .s .o{
+     width: 100%;
+    height: 0;
+    transition:.4s;
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-top .manu .s:hover .o{
+    height: 22px;
+    opacity: 1;
+}
+.header-top .manu .s:hover a{
+    color:#d50a51;
+    transition:.4s;
+}
+.header-top .manu .g{
+    width:60px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+.header-top .manu .g a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    align-self: center;
+}
+.header-top .manu .g .o{
+     width: 100%;
+    height: 0;
+    transition:.4s;
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-top .manu .g:hover .o{
+    height: 22px;
+    opacity: 1;
+}
+.header-top .manu .g:hover a{
+    color:#d50a51;
+    transition:.4s;
+}
+.header-top .manu .p{
+    width:60px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+.header-top .manu .p a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    align-self: center;
+}
+.header-top .manu .p .o{
+     width: 100%;
+    height: 0;
+    transition:.4s;
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-top .manu .p:hover .o{
+    height: 22px;
+    opacity: 1;
+}
+.header-top .manu .p:hover a{
+    color:#d50a51;
+    transition:.4s;
+}
+.header-top .manu .c{
+    width:60px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+.header-top .manu .c a{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    align-self: center;
+}
+.header-top .manu .c .o{
+     width: 100%;
+    height: 0;
+    transition:.4s;
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-top .manu .c:hover .o{
+    height: 22px;
+    opacity: 1;
+}
+.header-top .manu .c:hover a{
+    color:#d50a51;
+    transition:.4s;
+}
+.header-top .login{
+    align-self: center;
+}
+.header-top .login a{
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 1px solid #d50a51;
+    border-radius:25px;
+    color:#d50a51;
+    transition: .4s;
+}
+.header-top .login a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+.head .happy img{
+    padding-top: 40px;
+}
+.happy{
+    display: flex;
+}
+.happy .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.happy .text .happy{
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8a5e3b;
+    text-align: center;
+    margin-top: 130px;
+}
+.happy .text .v{
+    color:#d50a51;
+    font-size:80px; 
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin-top: -25px;
+}
+.happy .text .details{
+    font-size: 16px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.happy .text a{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #d50a51;
+    border-radius:25px;
+    color:#d50a51;
+    margin-top: 80px;
+    align-self: center;
+    transition: .4s;
+}
+.happy .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+.history{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.history .img{
+    padding-right: 20px;
+}
+.history .text{
+    margin-left: 20px;
+}
+.history .text .he .his{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#444;
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: -60px;
+    margin-left: 55px;
+}
+.history .text .he .val{
+    color:#d50a51;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left:55px;
+    margin-top: 0px;
+}
+.history .text p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+}
+.history .text .two{
+    margin-top: 20px;
+}
+.gift{
+    width:cover;
+    margin-top: 100px;
+    background: #fff6da;
+}
+.gift .container{
+    display: flex;
+    flex-direction: row
+}
+.gift .container .text{
+    width: 57%;
+    padding: 50px 0;
+}
+.gift .text .v{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#444;
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: -60px;
+    margin-left: 55px;
+}
+.gift .text .g{
+    color:#d50a51;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left:55px;
+    margin-top:0;
+}
+.gift .text p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    width: 100%;
+}
+.gift .text .two{
+    margin-top: 20px;
+}
+.gift .container .img{
+    width:43%;
+    margin-top: -115px;
+}
+.gift .container .img img{
+    width: 100%;
+}
+.gift .text a{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #d50a51;
+    border-radius:25px;
+    color:#d50a51;
+    margin-top: 30px;
+    align-self: center;
+    transition: .4s;
+}
+.gift .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+.gift .text a.one{
+    margin-left: 25px;
+}
+.ticket{
+    margin-top: 100px;
+}
+.ticket .img{
+    width: 47%;
+    float: left;
+}
+.ticket .img img{
+    width: 100%;
+}
+.ticket .text{
+    width: 53%;
+    float: left;
+}
+.ticket .text img{
+    margin-left: 88%;
+}
+.ticket .text .v{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#444;
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: -60px;
+    margin-right: 40px;
+    text-align: right;
+}
+.ticket .text .t{
+    color:#d50a51;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top:0;
+    margin-right: 40px;
+    text-align: right;
+}
+.ticket .text p.one{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    width: 100%;
+    text-align: right;
+    padding-left:10px;
+}
+.ticket .text p.two{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    text-align: right;
+    padding-left:10px;
+}
+.ticket .text .two{
+    margin-top: 20px;
+}
+.ticket .text .a{
+    margin-top: 18px;
+    text-align: right;
+}
+.ticket .text a.two{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #d50a51;
+    border-radius:25px;
+    color:#d50a51;
+    transition: .4s;
+    margin-right: 25px;
+}
+.ticket .text a.two:hover{
+    background: #d50a51;
+    color: #fff;
+}
+.ticket .text a.one{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #d50a51;
+    border-radius:25px;
+    color:#d50a51;
+    transition: .4s;
+}
+.ticket .text a.one:hover{
+    background: #d50a51;
+    color: #fff;
+}
+.clear{
+    clear: both;
+}
+.offer{
+    margin-top: 100px;
+    background: #fef7fa;
+    width: cover;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.offer .text{
+    width:33%;
+    float: left;
+}
+.offer .text .v{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#444;
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: -60px;
+    margin-left: 55px;
+}
+.offer .text .o{
+    color:#d50a51;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top:0;
+    margin-left: 55px;
+} 
+.offer .text .d-o{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    width: 100%;
+}
+.offer .text .d-t{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    width: 100%;
+}
+.offer-o{
+    width: 67%;
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.offer-o .one{
+    width: 350px;
+    height: 230px;
+    border-right: 4px solid rgba(213, 10, 81,0);
+    background: rgba(242, 231, 236,0);
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,0);
+    margin-left: 30px;
+    cursor: pointer;
+}
+.offer-o .one img{
+    float: left;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+.offer-o .one .r{
+    float: left;
+    font-size:20 ;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    margin-top: 58px;
+    margin-left: 17px;
+}
+.offer-o .one .d{
+    padding-top: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+}
+.offer-o .one:hover{
+    border-right: 4px solid rgba(213, 10, 81,1);
+    background: rgba(242, 231, 236,1);
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,.29);
+    transition: .4s;
+}
+.offer-o .two{
+    width: 350px;
+    height: 230px;
+    border-right: 4px solid rgba(213, 10, 81,0);
+    background: rgba(242, 231, 236,0);
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,0);
+    margin-left: auto;
+    cursor: pointer;
+}
+.offer-o .two img{
+    float: left;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+.offer-o .two .r{
+    float: left;
+    font-size:20 ;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    margin-top: 58px;
+    margin-left: 17px;
+}
+.offer-o .two .d{
+    padding-top: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+}
+.offer-o .two:hover{
+    border-right: 4px solid #d50a51;
+    background: #f2e7ec;
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,0.29);
+    transition: .4s;
+}
+.offer-o .three{
+    width: 350px;
+    height: 230px;
+    border-right: 4px solid rgba(213, 10, 81,0);
+    background: rgba(242, 231, 236,0);
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,0);
+    margin-top:30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.offer-o .three img{
+    float: left;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+.offer-o .three .r{
+    float: left;
+    font-size:20 ;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    margin-top: 58px;
+    margin-left: 17px;
+}
+.offer-o .three .d{
+    padding-top: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+}
+.offer-o .three:hover{
+    border-right: 4px solid rgba(213, 10, 81,1);
+    background: rgba(242, 231, 236,1);
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,.29);
+    transition: .4s;
+}
+.offer-o .four{
+    width: 350px;
+    height: 230px;
+    border-right: 4px solid rgba(213, 10, 81,0);
+    background: rgba(242, 231, 236,0);
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,0);
+    margin-left: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offer-o .four img{
+    float: left;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+.offer-o .four .r{
+    float: left;
+    font-size:20 ;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    margin-top: 58px;
+    margin-left: 17px;
+}
+.offer-o .four .d{
+    padding-top: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+}
+.offer-o .four:hover{
+    border-right: 4px solid rgba(213, 10, 81,1);
+    background: rgba(242, 231, 236,1);
+    box-shadow: -1px 0px 7px 1px rgba(0,0,0,.29);
+    transition: .4s;
+}
+
+.capture{
+    width: 100%;
+    margin-top: 80px;
+}
+
+ .capture .images{
+     width: 68%;
+     float: left;
+ }
+.capture .img{
+    height:400px;
+    width: 45%;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.capture .img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.capture .images .img .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    transition: .4s;
+    text-align: center;
+    transform:scale(0);
+    cursor: pointer;
+}
+
+.capture .images .img:hover .overlay{
+    transform: scale(1);
+}
+
+.capture .images .img .overlay .text{
+    margin-top: 85px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.capture .images .img .overlay .icon{
+    width: 40px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.capture .images .img .overlay .icon i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+.capture .images .img .overlay i:hover{
+    background:  #d50a51;
+    border-color: #d50a51;
+}
+
+.capture .images .img .overlay .icons span{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:5px;
+}
+.capture .images .img .overlay .icons{
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+  
+
+.capture .text-part{
+    width: 32%;
+    float: left;
+    text-align: right;
+}
+.capture .text-part .v{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#444;
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: -60px;
+    margin-right:60px;
+}
+
+.capture .text-part .t{
+    color:#d50a51;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top:0;
+    margin-right: 60px;
+}
+.capture .text-part p.one{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    width:349px;
+    margin-left: auto;
+}
+.capture .text-part p.two{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    width:349px;
+    margin-left: auto;
+}
+.capture .text-part .two{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.capture .text-part a.two{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #d50a51;
+    border-radius:25px;
+    color:#d50a51;
+    transition: .4s;
+    margin-right: 15px;
+}
+.capture .text-part a.two:hover{
+    background: #d50a51;
+    color: #fff;
+}
+.capture .text-part a.one{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #d50a51;
+    border-radius:25px;
+    color:#d50a51;
+    transition: .4s;
+}
+.capture .text-part a.one:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/*============================================
+               Timer CSS Start
+============================================*/
+
+#timer{
+    background:url(../images/counter-bg.jpg ) no-repeat center;
+    height:300px;
+    background-size: cover;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+#timer .time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 50px;
+}
+
+#timer .a{
+    width:100px;
+    float: left;
+    text-align: center;
+}
+
+#timer p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color:#d50a51;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+#timer .a .d{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #444;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+/*============================================
+                Timer CSS End
+============================================*/
+
+
+/*============================================
+               Person CSS Start
+============================================*/
+    
+#person{
+    width:100%;
+    margin-top: 80px;
+}
+
+#person .per{
+    position: relative;
+    display: flex;
+}
+
+#person .slick-list{
+    margin-right:-22.8px;
+}
+
+#person .per:before{
+    position: absolute;
+    top: -43px;
+    left:-40px;
+    background: url(../Images/feed-love.png) no-repeat;
+    content: '';
+    height: 70px;
+    width: 70px;
+}
+
+#person .per:after{
+    position: absolute;
+    bottom:-43px;
+    right:-42px;
+    background: url(../Images/feed-love.png) no-repeat;
+    content: '';
+    height: 70px;
+    width: 70px;
+    transform: rotate(180deg);
+    
+}
+
+#person .prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    transition: .4s;
+    font-size: 20px;
+    left: -350px;
+    cursor: pointer;
+    color: #d50a51;
+    z-index: 9999;
+}
+
+#person .prev:hover{
+    background:#d50a51;
+    border-color: #d50a51;
+    color: #fff;
+}
+
+#person .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    transition: .4s;
+    font-size: 32px;
+    right: -350px;
+    cursor: pointer;
+    color: #d50a51;
+}
+
+#person .next:hover{
+    background: #d50a51;
+    border-color:  #d50a51;
+    color: #fff;
+}
+
+#person .left{
+    width: 49%;
+    background: #fffae2;
+    margin-right: 22.8px;
+}
+
+#person .left p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif; 
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#person .left .img{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#person .left .img img{
+    height: 300px;
+    width: 250px;
+    margin-left: -73px;
+    margin-top: -17px;
+}
+#person .left ul{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#person .left ul li{
+    margin-right:20px;
+    float: left;
+}
+
+#person .left ul li h3{
+    font-size: 20px;
+    color:#222;
+    font-family:'Josefin Sans', sans-serif;
+    margin-bottom: -20px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+#person .left ul li h4{
+    font-size: 18px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+#person .right{
+    width: 49%;
+    background: #fffae2;
+    margin-right: 22.8px;
+}
+
+#person .right p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif; 
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#person .right .img{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#person .right .img img{
+    height:155px;
+    width: 234px;
+    margin-left: -77px;
+    margin-top: -4px;
+}
+#person .right ul{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#person .right ul li{
+    margin-right:20px;
+    float: left;
+}
+
+#person .right ul li h3{
+    font-size: 20px;
+    color:#222;
+    font-family:'Josefin Sans', sans-serif;
+    margin-bottom: -20px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+#person .right ul li h4{
+    font-size: 18px;
+    color:#444;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+/*============================================
+               Person CSS End
+============================================*/
+
+
+/*==========================================
+            Footer CSS start
+===========================================*/
+
+#footer{
+    background: url(../Images/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+#footer .container{
+    position: relative;
+}
+
+#footer .newsletter{
+    background: #d50a51;
+    text-transform:capitalize;
+    width: 100%;
+    height: 100px;
+    border-radius: 65px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#footer .newsletter .form{
+    width: 80%;
+    height: 90%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .newsletter .form .icon{
+    width: 40%;
+}
+
+#footer .newsletter .form .icon ul li{
+    display: inline-block;
+}
+
+#footer .newsletter .form .icon ul{
+    position: relative;
+}
+
+#footer .newsletter .form .icon ul li i{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+#footer .newsletter .form .icon ul li h2{
+    font-size: 40px;
+    color: #fff;
+    font-family:'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left:50px;
+}
+
+#footer .newsletter .form .icon ul li p{
+    font-size: 15px;
+    color: #fff;
+    font-family:'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    margin-left:50px;
+    margin-top: 6px;
+}
+
+#footer .newsletter .form from{
+    width: 57%;
+    display: flex;
+    align-items: center;
+}
+
+#footer .newsletter .form from input{
+    border: 1px solid #fff;
+    padding: 10px;
+    background: transparent;
+    width: 40%;
+    font-size: 16px;
+    color: #fff;
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    outline: 0;
+    font-style: italic;
+}
+
+#footer .newsletter .form from .nam{
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+#footer .newsletter .form from input::placeholder{
+    font-size: 15px;
+    color: #fff;
+}
+
+#footer .newsletter .form from button{
+    outline: 0;
+    border: 1px solid #fff;
+    background: transparent;
+    margin-left: -1px;
+}
+
+#footer .newsletter .form from button i{
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer .footer-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+
+#footer .contact{
+    width:80%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+#footer .contact ul{
+    display: flex;
+    align-items: center;
+}
+
+#footer .contact ul li{
+    display: inline-block;
+}
+
+#footer .contact ul li i{
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius:50%;
+    line-height: 50px;
+    background: #d50a51;
+    text-transform:capitalize;
+    text-align: center;
+}
+
+#footer .contact ul li p{
+    font-size: 15px;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+
+#footer .follow{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer .follow p{
+    font-family:'Josefin Sans', sans-serif;
+    color: #d50a51;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#footer .follow .social{
+    margin-top: 40px;
+    
+}
+
+#footer .follow a{
+    float: left;
+    display: inline-block;
+}
+#footer .follow i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color:#d50a51;
+    font-size: 20px;
+    transition: .4s;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#footer .follow i.last{
+    margin-right: 0;
+}
+
+#footer .follow a:hover i{
+    background: #d50a51;
+    color:#fff;
+}
+/*==========================================
+            Footer CSS end
+===========================================*/
+    
+
+/*==========================================
+            Designer CSS start
+===========================================*/
+
+#designer{
+    text-align: center;
+    padding: 15px 0;
+}
+#designer p{
+    color: #444;
+     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#designer h2{
+    color: #d50a51;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+#designer h2 span{
+    color: #444;
+    font-weight: 400;
+}
+
+
+/*==========================================
+            Designer CSS end
+===========================================*/
+    
+    
+    
+    
+    
